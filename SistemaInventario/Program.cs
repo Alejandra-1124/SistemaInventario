@@ -24,6 +24,7 @@ class Program
             Console.WriteLine("| 7. Salir                                     |");
             Console.WriteLine("|----------------------------------------------|");
 
+
             // Leer opción
             if (!int.TryParse(Console.ReadLine(), out opcion))
             {
